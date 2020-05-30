@@ -1,0 +1,554 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+
+*{
+  font-family: 'Markazi Text', serif;
+  direction: rtl;
+}
+
+body{
+  height: ;
+}
+.navbar{
+  padding: 20px;
+font-size: 25px;
+background-color: #343a40 !important;
+
+}
+
+.nav-item{
+  margin-left: 8px;
+
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    transition: 0.5s all ease-in-out;
+    color:rgb(255, 255, 255);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: black;
+    background-color: #ddd;
+    transform: scale(1.1);
+    padding-left: 10px;
+
+
+}
+.nav-item a{
+    color: white;
+}
+
+
+.navbar-brand{
+  font-size: 28px;
+    letter-spacing: px;
+
+}
+.navbar-light .navbar-brand:hover{
+  font-size: 28px;
+
+    color: white
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+  }
+
+/* end nav */
+
+/* Start header */
+
+header{
+  min-height: 600px;
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.over-lay{
+  min-height: 600px;
+background-color: #0000009c;
+}
+
+header h1{
+  color: white;
+      font-size: 70px;
+      top: 200px;
+      position: relative;
+}
+
+.now{
+  padding: 10px;
+  border: 1px solid #ddd;
+  width: 400px;
+  background-color: #000061;
+  position: relative;
+  left: -30%;
+top: 241px;
+}
+
+.now a{
+  color: black;
+  text-decoration: none;
+
+}
+
+.now h5{
+
+    font-size: 32px;
+    color: white;
+}
+/* End Header */
+
+
+/* Start How */
+
+.who{
+  padding-top: 40px;
+  padding-bottom: 60px;
+
+}
+
+.who p {
+  font-size: 26px;
+      direction: ltr;
+      font-family: 'Almarai', sans-serif;
+      line-height: 63px;
+
+}
+
+.who h3{
+  margin-bottom: 30px;
+padding: 11px;
+background-color: red;
+color: white;
+}
+
+.who button {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.who button a{
+  text-decoration: none;
+  color: white;
+}
+
+.who .img {
+  box-shadow: 10px 10px 10px;
+
+}
+/* End How */
+
+
+/* Start Good */
+
+.good{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.good .g{
+  transition: 0.5s all ease-in-out;
+  margin-bottom: 5px;
+}
+
+.good .g:hover{
+  transform: scale(1.1);
+}
+
+.good .button a{
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.good .button {
+  font-size: 18px;
+font-weight: 700;
+    padding: 1.19rem 1.37rem;
+    letter-spacing: .1em;
+    margin-top: 5vw;
+    -moz-transition: background .2s ease;
+    -o-transition: background .2s ease;
+    -webkit-transition: background .2s ease;
+    transition: background .2s ease;
+    text-decoration: none;
+    background: #F25E36;
+  margin: 2rem auto 0;
+  width: 256px;
+  color: white;
+  text-align: center;
+}
+
+.good h3{
+  margin-top: 36px;
+    font-size: 51px;
+}
+
+/* End good */
+
+
+/* Start WE */
+
+.we {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #ddd;
+  text-align: center;
+}
+
+.we h2{
+font-size: 70px;
+margin-bottom: 50px;
+}
+
+.we h4{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.we i {
+  font-size: 50px;
+  border-radius: 40px;
+  padding: 20px;
+  background-color: white;
+  margin-top: 5px;
+  margin-bottom: 10px;
+
+}
+
+
+.we p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+/* End WE */
+
+
+/*Start Contact*/
+.contact{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #96AEBE;
+}
+
+.contact h2{
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+/* End Contact*/
+
+/* start footer */
+
+footer{
+  padding-top: 100px;
+  padding-bottom: 80px;
+  background: #EDEDED;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.08);
+}
+
+footer h4{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-family: 'Almarai', sans-serif;
+  border-bottom: 1px solid green;
+  padding-bottom: 20px;
+
+}
+
+footer p {
+  font-size: 24px;
+  text-align: center;
+}
+
+footer a {
+   color: black;
+   text-decoration: none;
+}
+
+footer a:hover {
+   color: black;
+   text-decoration: none;
+}
+
+footer i{
+font-size: 40px;
+
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  font-size: 19px;
+  text-align: center;
+}
+
+/* End footer*/
+
+/* Shop */
+.header-shop{
+  min-height: 400px;
+  background-image: url(../images/shop.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.over-lay-shop{
+  min-height: 400px;
+background-color: #0000009c;
+}
+.text-shop{
+  font-size: 120px;
+  top: 128px;
+}
+
+.shop{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.shop .head-shop {
+  padding: 10px;
+  background-color: #e8ebee;
+  color: ;
+}
+
+.shop ul {
+  list-style: none;
+
+}
+
+.shop ul li{
+  margin-top: ;
+  font-size: 26px;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.shop-main{
+  padding:2px;
+  border: 1px solid #ddd;
+  height: 117px !important;
+  margin-bottom: 40px;
+}
+
+
+.shop-item{
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+
+  border: 1px solid #ddd;
+}
+
+.shop-item img{
+  box-shadow: 10px 10px 10px #DDD ;
+}
+
+.shop-item .price{
+  color: white;
+  margin-top: 10px;
+  font-size: 24px;
+  background-color: green;
+  padding: 10px;
+}
+
+/* BloG */
+.blog-box{
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 10px;
+  border: 1px solid #EEE;
+  background-color: whitesmoke;
+
+}
+
+.blog-head{
+  color: #fc4f08;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.blog-box img{
+  padding: 3px;
+      box-shadow: 0px 5px 8px;
+      background-color: white;
+}
+
+
+.blog-box p{
+  padding: 10px;
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+.blog button{
+  padding: 10px;
+  background-color: #0858A8;
+  border: 1px solid #0858A8;
+}
+
+.blog button a {
+  color: white;
+  text-decoration: none;
+}
+.blog{
+  background-color: #DEDEDE;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+
+/* Home bage Responsiive  */
+
+
+
+/* ADMIN */
+
+
+.admin-title{
+    background-color: #212529;
+    color: white;
+    padding: 10px;
+}
+
+.admin{
+  padding: 10px;
+  background-color: ;
+  overflow: hidden;
+  min-height: 100%;
+
+}
+
+.id-admin{
+  background-color: #222C32;
+  color: white;
+  text-align: center;
+  min-height: 100%;
+}
+
+.id-admin img{
+  border-radius: 50%;
+  padding: 5px;
+  border: 1px solid #ddd;
+  background-color: whitesmoke;
+  margin-top: 10px;
+}
+
+.id-admin .title{
+  border-bottom: 1px solid #ddd;
+    padding: 10px;
+    margin-top: -18px;
+    font-size: 24px;
+}
+
+.id-admin ul{
+  list-style: none;
+  text-align: center;
+}
+
+.id-admin ul li{
+  margin-top: 20px;
+}
+
+.id-admin ul li a:hover{
+  background-color: #2C3B41;
+}
+.id-admin ul li a{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  margin-left: 40px;
+
+  padding: 10px;
+}
+
+.admin .content{
+  padding: 10px;
+  border: 1px solid blue;
+  min-height: 100%;
+
+
+}
+
+.admin-content{
+    font-size: 20px;
+}
+
+.members {
+    background-color: #DD3F40 ;
+    margin-top: 7px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    color: white;
+}
+
+.blogs {
+    background-color: #001f3f;
+    margin-top: 7px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    color: white;
+}
+
+.orders {
+    background-color: #419cc1;
+    margin-top: 7px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    color: white;
+}
+
+.productss {
+    background-color:#39CCCC;
+    margin-top: 7px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    color: white;
+}
+
+.posts{
+    padding: 10px;
+    text-align: center;
+}
+
+.orders{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .who p {
+
+    line-height: 46px;
+  }
+
+}
+
+@media (min-width: 500px) and (max-width: 991px) {
+
+  header h1{
+    font-size: 60px;
+  }
+
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+
+  header h1{
+    font-size: 45px;
+  }
+
+}
